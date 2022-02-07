@@ -1,0 +1,129 @@
+.parent {
+    height: 50px;
+    border-radius: 7px;
+  background-color: rgb(241, 236, 236);
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  
+}
+
+#grandparent{
+  display: flex;
+  flex-direction: column;
+}
+
+.child{
+  margin: 10px;
+  font-size: 20px;
+}
+
+.parent2{
+  
+  background-color: rgb(248, 245, 45);
+  border-radius: 7px;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  
+}
+
+.child1{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: lightcoral;
+  width: 45pc;
+  border-radius: 7px;
+}
+
+.matio{
+  background-color: white;
+  width: 300px;
+  font-style: italic;
+  justify-content: center;
+}
+
+
+.grand child{
+  display: flex;
+ width: 300px;
+ height: 300px;
+}
+
+.parent3{
+  
+  background-color: rgb(248, 245, 45);
+  border-radius: 7px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+
+  
+}
+
+.child2{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color:  #e21534;
+  width: 45pc;
+  border-radius: 7px;
+  align-content: space-between;
+}
+
+.matio2{
+  background-color: white;
+  width: 300px;
+  font-style: italic;
+  justify-content: center;
+}
+
+.grandchild2{
+  display: flex;
+ width: 300px;
+ height: 300px;
+ margin-top: 10px;
+}
+
+.grandchild4{
+  background-color: green;
+  font: bold;
+  width: 45pc;
+  border-radius: 7px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.grandchild5{
+  background-color: aqua;
+  font: bold;
+  width: 45pc;
+  border-radius: 7px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.redbutton{
+  background-color: red; 
+  width: 216px;
+  height: 206px;
+  border-radius: 7px;
+  font-size: 40px;
+  font: bolder;
+
+}
+
+.bluebutton{
+  background-color: blue;
+  width: 216px;
+  height: 206px;
+  border-radius: 7px;
+  font-size: 40px;
+  font: bolder;
+}
